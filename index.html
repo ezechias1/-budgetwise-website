@@ -12,6 +12,7 @@
   <link rel="icon" type="image/png" href="https://budget-wise-ruby.vercel.app/icons/icon-192.png">
 </head>
 <body>
+  <canvas id="bgCanvas"></canvas>
   <!-- Navbar -->
   <nav class="navbar">
     <div class="container nav-container">
@@ -23,9 +24,14 @@
         <li><a href="#features">Features</a></li>
         <li><a href="#accounts">Accounts</a></li>
         <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#screenshots">Screenshots</a></li>
       </ul>
-      <a href="https://budget-wise-ruby.vercel.app" class="btn btn-primary nav-cta" target="_blank">Open App</a>
+      <div class="nav-right">
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="https://budget-wise-ruby.vercel.app" class="btn btn-primary nav-cta" target="_blank">Open App</a>
+      </div>
       <button class="mobile-menu-btn" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -57,11 +63,6 @@
             <strong>100%</strong>
             <span>Free Core</span>
           </div>
-        </div>
-      </div>
-      <div class="hero-image animate-up delay-1">
-        <div class="phone-mockup">
-          <img src="assets/mobile-personal.png" alt="BudgetWise Mobile Dashboard" loading="lazy">
         </div>
       </div>
     </div>
@@ -327,12 +328,12 @@
           <a href="#features">Features</a>
           <a href="#accounts">Account Modes</a>
           <a href="#pricing">Pricing</a>
-          <a href="#screenshots">Screenshots</a>
         </div>
         <div class="footer-links">
           <h4>Legal</h4>
           <a href="privacy.html">Privacy Policy</a>
           <a href="terms.html">Terms of Service</a>
+          <a href="faq.html">FAQs</a>
         </div>
         <div class="footer-links">
           <h4>Contact</h4>

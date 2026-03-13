@@ -1,0 +1,11 @@
+/* FAQ accordion */
+.faq-list{display:flex;flex-direction:column;gap:12px;margin-top:32px}
+.faq-item{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;overflow:hidden;transition:all 0.3s}
+.faq-item:hover{border-color:rgba(16,185,129,0.3)}
+.faq-question{width:100%;display:flex;align-items:center;justify-content:space-between;padding:20px 24px;background:none;border:none;color:var(--text);font-size:1.05rem;font-weight:600;cursor:pointer;text-align:left;font-family:inherit;gap:16px}
+.faq-chevron{flex-shrink:0;transition:transform 0.3s;color:var(--text-muted)}
+.faq-item.open .faq-chevron{transform:rotate(180deg);color:var(--green)}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.4s ease,padding 0.3s ease}
+.faq-item.open .faq-answer{max-height:300px;padding:0 24px 20px}
+.faq-answer p{color:var(--text-muted);line-height:1.7;font-size:0.95rem}
+.faq-answer a{color:var(--green)}
