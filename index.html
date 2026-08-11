@@ -3,13 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BudgetWise - Smart Budget Tracker | Personal, Business & Family</title>
-  <meta name="description" content="Track expenses, set savings goals, and manage your money smarter. BudgetWise offers personal, business, and family budgeting — all in one app.">
+  <title>BudgetWise — Smart Budget Tracker for Personal, Business & Family</title>
+  <meta name="description" content="Track expenses, set savings goals and manage money across Personal, Business and Family modes. Includes BudgetWise Junior to teach kids budgeting. Free while in pre-launch.">
+  <link rel="canonical" href="https://budgetwise-website.vercel.app/">
+  <meta name="theme-color" content="#10b981">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="BudgetWise">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BudgetWise">
+  <meta property="og:locale" content="en_ZA">
+  <meta property="og:url" content="https://budgetwise-website.vercel.app/">
+  <meta property="og:title" content="BudgetWise — Smart Budget Tracker for Personal, Business & Family">
+  <meta property="og:description" content="Track expenses, set savings goals and manage money across Personal, Business and Family modes. Includes BudgetWise Junior to teach kids budgeting. Free while in pre-launch.">
+  <meta property="og:image" content="https://budgetwise-website.vercel.app/assets/desktop-personal.png">
+  <meta property="og:image:alt" content="The BudgetWise dashboard showing spending charts and savings goals">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BudgetWise — Smart Budget Tracker for Personal, Business & Family">
+  <meta name="twitter:description" content="Track expenses, set savings goals and manage money across Personal, Business and Family modes. Includes BudgetWise Junior to teach kids budgeting. Free while in pre-launch.">
+  <meta name="twitter:image" content="https://budgetwise-website.vercel.app/assets/desktop-personal.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="https://budget-wise-react.vercel.app/icons/icon-192.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://budgetwise-website.vercel.app/#organization",
+      "name": "BudgetWise",
+      "url": "https://budgetwise-website.vercel.app",
+      "logo": "https://budget-wise-ruby.vercel.app/icons/icon-512.png",
+      "email": "ezechiasmulamba@gmail.com",
+      "areaServed": "ZA",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "ezechiasmulamba@gmail.com",
+          "availableLanguage": [
+            "en"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://budgetwise-website.vercel.app/#website",
+      "url": "https://budgetwise-website.vercel.app",
+      "name": "BudgetWise",
+      "publisher": {
+        "@id": "https://budgetwise-website.vercel.app/#organization"
+      },
+      "inLanguage": "en-ZA"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://budgetwise-website.vercel.app/#app",
+      "name": "BudgetWise",
+      "applicationCategory": "FinanceApplication",
+      "applicationSubCategory": "Budgeting and personal finance",
+      "operatingSystem": "Web browser, Android, iOS (Progressive Web App)",
+      "url": "https://budget-wise-ruby.vercel.app",
+      "installUrl": "https://budget-wise-ruby.vercel.app",
+      "inLanguage": "en-ZA",
+      "publisher": {
+        "@id": "https://budgetwise-website.vercel.app/#organization"
+      },
+      "description": "BudgetWise is a budgeting and personal finance app for South Africa. It tracks expenses, sets savings goals, scans receipts with OCR, and supports Personal, Business and Family modes. It includes BudgetWise Junior, which teaches children aged 7 to 17 to manage money through chores, lessons and parent-approved savings goals.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "ZAR",
+        "availability": "https://schema.org/InStock",
+        "description": "Free while BudgetWise is in pre-launch. Paid Pro plans are planned but not yet on sale."
+      },
+      "featureList": [
+        "Expense tracking by category",
+        "Savings goals with progress tracking",
+        "Receipt scanning with OCR",
+        "Budget limits and alerts",
+        "CSV and PDF export",
+        "Recurring expenses",
+        "Personal, Business and Family modes",
+        "Business invoicing, clients and profit & loss reports",
+        "Family allowances, chores and shared savings goals",
+        "BudgetWise Junior for children aged 7 to 17",
+        "Multi-currency support and live exchange rates",
+        "Load shedding cost tracking",
+        "Stokvel group savings"
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <canvas id="bgCanvas"></canvas>
@@ -196,7 +290,7 @@
             <li>Shared family goals</li>
             <li>Family spending tracker</li>
             <li>Household budget overview</li>
-            <li><strong>BudgetWise Junior — teach kids budgeting (coming soon)</strong></li>
+            <li><strong>BudgetWise Junior — teach kids budgeting, now available</strong></li>
           </ul>
         </div>
       </div>
@@ -207,9 +301,9 @@
   <section id="junior" class="features" style="padding-top:0;">
     <div class="container">
       <div class="section-header animate-up">
-        <span class="badge">Coming soon</span>
+        <span class="badge">Now available</span>
         <h2>Introducing <span class="gradient-text">BudgetWise Junior</span></h2>
-        <p>The easiest way to teach your kids the value of money. Built for ages 10–13, inside the BudgetWise app you already use.</p>
+        <p>The easiest way to teach your kids the value of money. Built for ages 7–17, with lessons that adapt to your child’s age, inside the BudgetWise app you already use.</p>
       </div>
       <div class="features-grid">
         <div class="feature-card animate-up">
@@ -256,7 +350,7 @@
         </div>
       </div>
       <p style="text-align:center;margin-top:32px;opacity:0.8;font-size:0.95rem;">
-        <strong>Included in Pro</strong> — no separate subscription. Launches as part of a BudgetWise update coming soon.
+        <strong>Included in Pro</strong> — no separate subscription. Available now in the BudgetWise app.
       </p>
     </div>
   </section>
@@ -292,7 +386,7 @@
       <div class="section-header animate-up">
         <span class="badge">Simple pricing</span>
         <h2>Start free, <span class="gradient-text">upgrade anytime</span></h2>
-        <p>Core budgeting features are completely free. Unlock Business & Family modes with Pro.</p>
+        <p><strong>Everything is free while we are in pre-launch</strong> — including Business &amp; Family modes and BudgetWise Junior. The Pro pricing below is what we plan to charge once we go live; nobody is being charged today.</p>
       </div>
       <div class="pricing-grid">
         <div class="pricing-card animate-up">
@@ -326,7 +420,7 @@
             <li class="included">Everything in Free</li>
             <li class="included">Business mode & invoicing</li>
             <li class="included">Family mode & members</li>
-            <li class="included">BudgetWise Junior (coming soon)</li>
+            <li class="included">BudgetWise Junior</li>
             <li class="included">Client management</li>
             <li class="included">Profit & loss reports</li>
             <li class="included">Chores & rewards</li>
@@ -350,7 +444,7 @@
             <li class="included">All future features</li>
             <li class="included">Business mode & invoicing</li>
             <li class="included">Family mode & members</li>
-            <li class="included">BudgetWise Junior (coming soon)</li>
+            <li class="included">BudgetWise Junior</li>
             <li class="included">Client management</li>
             <li class="included">Profit & loss reports</li>
             <li class="included">Priority support</li>
@@ -376,7 +470,7 @@
   <!-- Roadmap disclaimer -->
   <section style="padding:24px 0;text-align:center;opacity:0.65;font-size:0.85rem;">
     <div class="container">
-      <p>BudgetWise is under active development. Features, timelines, and pricing may change as we ship new updates — including <strong>BudgetWise Junior</strong>. Last updated April 2026.</p>
+      <p>BudgetWise is under active development. Pro plans are not on sale yet — the whole app is free for now, and we will give notice before any charging begins. Payments will be handled by <strong>Stitch</strong> when we go live. Features, timelines and pricing may change. Last updated August 2026.</p>
     </div>
   </section>
 

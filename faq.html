@@ -3,7 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BudgetWise - FAQs</title>
+  <title>BudgetWise FAQs — Pricing, Features, Security & Junior</title>
+  <meta name="description" content="Answers to common questions about BudgetWise: what it costs, how your data is secured, which banks are supported, and how BudgetWise Junior works for kids aged 7–17.">
+  <link rel="canonical" href="https://budgetwise-website.vercel.app/faq.html">
+  <meta name="theme-color" content="#10b981">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="BudgetWise">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BudgetWise">
+  <meta property="og:locale" content="en_ZA">
+  <meta property="og:url" content="https://budgetwise-website.vercel.app/faq.html">
+  <meta property="og:title" content="BudgetWise FAQs — Pricing, Features, Security & Junior">
+  <meta property="og:description" content="Answers to common questions about BudgetWise: what it costs, how your data is secured, which banks are supported, and how BudgetWise Junior works for kids aged 7–17.">
+  <meta property="og:image" content="https://budgetwise-website.vercel.app/assets/desktop-personal.png">
+  <meta property="og:image:alt" content="The BudgetWise dashboard showing spending charts and savings goals">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BudgetWise FAQs — Pricing, Features, Security & Junior">
+  <meta name="twitter:description" content="Answers to common questions about BudgetWise: what it costs, how your data is secured, which banks are supported, and how BudgetWise Junior works for kids aged 7–17.">
+  <meta name="twitter:image" content="https://budgetwise-website.vercel.app/assets/desktop-personal.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -11,6 +33,118 @@
   <link rel="stylesheet" href="legal.css">
   <link rel="stylesheet" href="faq.css">
   <link rel="icon" type="image/png" href="https://budget-wise-react.vercel.app/icons/icon-192.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is BudgetWise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "BudgetWise is a free budgeting and financial tracking app that helps you manage your money. You can track expenses, set savings goals, scan receipts, get smart financial advice, and much more. It works on any device with a web browser."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is BudgetWise really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — and right now everything is free. While BudgetWise is in pre-launch we are not charging for anything, so Business mode, Family mode and BudgetWise Junior are all included at no cost and no card is required. We plan to introduce Pro plans (indicatively R79/month or R659/year) when we go live, and we will give you clear notice before any charging begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the three account modes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Personal (free) - Track your everyday expenses, set savings goals, and manage your personal budget. Business (Pro) - Manage business expenses, create invoices, track clients, and view profit & loss reports. Family (Pro) - Manage your household budget with family members, allowances, chores & rewards, and shared goals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use BudgetWise on my phone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! BudgetWise is a Progressive Web App (PWA) that works on any device. You can install it on your phone's home screen for a native app-like experience. It works on Android, iOS, and desktop browsers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I scan receipts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On your dashboard, tap the \"Scan\" button next to \"Add Expense\". Take a photo of your receipt or upload an image, and BudgetWise will automatically extract the amount using OCR (optical character recognition) powered by Tesseract.js. You can then confirm and categorize the expense."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my financial data secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Your data is stored securely on Supabase servers with encryption at rest and in transit. We use SSL/TLS encryption, row-level security on all database tables, and secure authentication. We never store your bank login credentials. See our Privacy Policy for full details."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I connect my bank account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not yet. Automatic bank syncing is still in development, so for now you add your accounts and card balances manually. When it launches it will run through a licensed open-banking provider, and we will never see or store your online banking username or password."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I export my data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! You can export your expense data as CSV or PDF at any time from the Expenses page. You can also use the backup/restore feature in your Account settings to download a full backup of all your data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the Family mode work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Family mode, you can add family members (parents, teens, children), set up pocket money/allowances, create chores with rewards, and set shared family savings goals. Family members can be invited to join your family group and track shared spending together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is BudgetWise Junior and what age is it for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "BudgetWise Junior teaches children to manage money inside your Family account. It covers ages 7 to 17, with lessons grouped into age brackets (7–9, 10–12, 13–15 and 16–17) so the content suits your child. Kids get chores with rewards, a Save / Spend / Give split, short money lessons, and can propose savings goals or ask you for money — which you approve, adjust or decline. A child never creates their own account: you set up their profile and they sign in with a 4-digit PIN, seeing only their own view and never your accounts or expenses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I cancel my Pro subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is nothing to cancel at the moment — no subscriptions are being sold and nobody is being charged. Once paid plans launch you will be able to cancel anytime from your Account settings, and your data is always yours to export."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I delete all my data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Go to Account settings and use the \"Delete All My Data\" button. This will permanently delete all your expenses, goals, settings, and account data. This action cannot be undone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I contact support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For any questions, issues, or feedback, email us at ezechiasmulamba@gmail.com . We typically respond within 24 hours."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <canvas id="bgCanvas"></canvas>
@@ -53,7 +187,7 @@
               <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
             <div class="faq-answer">
-              <p>Yes! The core Personal budgeting features are completely free with no credit card required. This includes expense tracking, savings goals, charts, budget limits, receipt scanning, CSV/PDF export, recurring expenses, smart advice, and more. The Pro plan (R79/month or R659/year) unlocks Business and Family modes.</p>
+              <p>Yes — and right now <strong>everything</strong> is free. While BudgetWise is in pre-launch we are not charging for anything, so Business mode, Family mode and BudgetWise Junior are all included at no cost and no card is required. We plan to introduce Pro plans (indicatively R79/month or R659/year) when we go live, and we will give you clear notice before any charging begins.</p>
             </div>
           </div>
 
@@ -105,7 +239,7 @@
               <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
             <div class="faq-answer">
-              <p>Bank linking is currently in beta and available for select regions. We use secure third-party providers (Plaid, Salt Edge) to connect to your bank - we never see or store your bank login details. This feature is being expanded and will be available to more users soon.</p>
+              <p>Not yet. Automatic bank syncing is still in development, so for now you add your accounts and card balances manually. When it launches it will run through a licensed open-banking provider, and we will never see or store your online banking username or password.</p>
             </div>
           </div>
 
@@ -128,6 +262,15 @@
               <p>In Family mode, you can add family members (parents, teens, children), set up pocket money/allowances, create chores with rewards, and set shared family savings goals. Family members can be invited to join your family group and track shared spending together.</p>
             </div>
           </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is BudgetWise Junior and what age is it for?</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>BudgetWise Junior teaches children to manage money inside your Family account. It covers ages 7 to 17, with lessons grouped into age brackets (7&ndash;9, 10&ndash;12, 13&ndash;15 and 16&ndash;17) so the content suits your child. Kids get chores with rewards, a Save / Spend / Give split, short money lessons, and can propose savings goals or ask you for money &mdash; which you approve, adjust or decline. A child never creates their own account: you set up their profile and they sign in with a 4-digit PIN, seeing only their own view and never your accounts or expenses.</p>
+            </div>
+          </div>
 
           <div class="faq-item">
             <button class="faq-question">
@@ -135,7 +278,7 @@
               <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
             <div class="faq-answer">
-              <p>You can cancel your Pro subscription anytime from your Account settings. Your Pro features will remain active until the end of your current billing period. All your data is always yours - you can export it before downgrading.</p>
+              <p>There is nothing to cancel at the moment — no subscriptions are being sold and nobody is being charged. Once paid plans launch you will be able to cancel anytime from your Account settings, and your data is always yours to export.</p>
             </div>
           </div>
 
